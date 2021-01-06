@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false">
+        <shape android:shape="rectangle">
+            <!--设置背景颜色-->
+            <solid android:color="#3399CC" />
+
+            <!--设置角的弧度-->
+            <corners android:radius="15dp" />
+            <!--设置边框以及颜色-->
+            <stroke
+                android:width="2dp"
+                android:color="#DDDDDD"/>
+
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape>
+            <!--设置点击之后的颜色-->
+            <solid android:color="#3399FF" />
+            <!--设置点击之后角的弧度-->
+            <corners android:radius="15dp" />
+            <!--设置点击之后边框以及颜色-->
+            <stroke
+                android:width="2dp"
+                android:color="#969696"/>
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <paths >
+        <external-path name="images" path=""/>
+
+    </paths>
+
+    <!--external-path用来指定Uri共享-->
+    <!--path的值表示共享的具体位置-->
+    <!--name值可以随便填-->
+
+</resources>
